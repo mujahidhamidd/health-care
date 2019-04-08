@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Health Care</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="user">user name</string>
+    <string name="password">password</string>
+    <string name="patient_name">Patient name</string>
+    <string name="age">age</string>
+    <string name="email">email</string>
+    <string name="home">home</string>
+    <string name="name_dector">name dector:</string>
+    <string name="date">date:</string>
+    <string name="time">time:</string>
+    <string name="clinic">name clinic:</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="add">add</string>
+    <string name="save">save</string>
+    <string name="empty_message">enter all fileds </string>
+    <string name="error_message">invalid name or password </string>
+
+</resources>

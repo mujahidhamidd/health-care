@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey" >
+
+
+
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:title="@string/create_account"
+        android:textSize="@dimen/title"
+        android:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary">
+
+
+    </Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        >
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/round"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+
+            >
+
+
+            <EditText
+                android:id="@+id/nameD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_dector"
+                android:letterSpacing="0.0025"
+                android:inputType="text"
+                android:textColor="#7000"
+                android:textColorHint="#7000"
+                android:background="#00000000"
+                android:textSize="16dp"
+                android:padding="15dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/round"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            >
+
+
+
+
+            <EditText
+                android:id="@+id/nameC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/clinic"
+                android:inputType="text"
+                android:letterSpacing="0.0025"
+                android:textColorHint="#7000"
+                android:textSize="16dp"
+                android:textColor="#7000"
+                android:background="#00000000"
+                android:padding="15dp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/round"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="20dp"
+            >
+
+
+
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/date"
+                android:inputType="text"
+                android:letterSpacing="0.0025"
+                android:textColorHint="#7000"
+                android:textSize="16dp"
+                android:textColor="#7000"
+                android:background="#00000000"
+                android:padding="15dp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/round"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="20dp"
+            >
+
+
+
+
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/time"
+                android:inputType="number"
+                android:letterSpacing="0.0025"
+                android:textColorHint="#7000"
+                android:textSize="16dp"
+                android:textColor="#7000"
+                android:background="#00000000"
+                android:padding="15dp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:letterSpacing="0.0025"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="@drawable/button_background"
+            android:layout_alignParentBottom="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            >
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

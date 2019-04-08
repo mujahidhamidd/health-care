@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_big">19sp</dimen>
+    <dimen name="title">25sp</dimen>
+    <dimen name="margin">30dp</dimen>
+
+</resources>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="2dp"
+
+    app:cardCornerRadius="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+            android:padding="5dp"
+
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+
+
+
+
+
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Doctor Name :"
+
+                android:textSize="14dp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimary"
+
+                />
+
+
+
+
+
+
+
+            <TextView
+
+
+                android:id="@+id/doctor"
+                android:layout_weight="1"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doctor"
+                android:textSize="14dp"
+                android:fontFamily="serif"
+                android:textColor="#000"
+
+                />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:padding="5dp"
+
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+
+
+
+
+
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Clinic Name :"
+
+                android:textSize="14dp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimary"
+
+                />
+
+
+
+
+
+
+
+            <TextView
+
+
+                android:id="@+id/clinic"
+                android:layout_weight="1"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doctor"
+                android:textSize="14dp"
+                android:fontFamily="serif"
+                android:textColor="#000"
+
+                />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+
+            android:padding="5dp"
+
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+
+          <ImageView
+              android:layout_width="50dp"
+
+
+
+              android:src="@drawable/ic_access_time_black_24dp"
+              android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+            <TextView
+
+
+                android:id="@+id/time"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+
+
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="time"
+                android:textSize="14dp"
+                android:fontFamily="serif"
+                android:textColor="#000"
+
+                />
+
+
+
+
+
+
+
+            <ImageView
+
+
+                android:layout_width="50dp"
+
+
+
+                android:src="@drawable/ic_date_range_black_24dp"
+
+                android:layout_height="wrap_content"
+
+
+
+                android:textSize="14dp"
+
+
+
+                />
+
+
+
+
+            <TextView
+
+                android:id="@+id/date"
+
+                android:text="date"
+                android:layout_marginTop="2dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+
+
+
+
+
+                android:textSize="14dp"
+                android:textColor="#000"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
